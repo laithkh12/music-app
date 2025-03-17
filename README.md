@@ -22,10 +22,10 @@ A music streaming and management platform with an admin, artist, and user login 
   
 ## Technologies
 
-- **Frontend**: HTML, CSS, JavaScript (React/Angular/Vue, etc. based on implementation).
-- **Backend**: Node.js (Express), Python (Flask/Django), or another framework of your choice.
-- **Database**: MySQL, MongoDB, or SQL Server (depending on your setup).
-- **Authentication**: JWT or session-based authentication for user roles.
+- **Frontend**: Next.js, TypeScript, React
+- **Backend**: Node.js with Express or another backend framework
+- **Database**: MySQL, MongoDB, or SQL Server
+- **Authentication**: JWT or session-based authentication for user roles
 
 ## Installation
 
@@ -35,33 +35,24 @@ A music streaming and management platform with an admin, artist, and user login 
    ```
    npm install
    ```
-   or
-   ```
-   pip install -r requirements.txt
-   ```
-
 3. Configure the database connection and create the necessary tables for songs, albums, and users.
 4. Set up the authentication mechanism (e.g., JWT) and configure the roles (Admin, Artist, User).
 5. Start the server:
    ```
    npm start
    ```
-   or
-   ```
-   python app.py
-   ```
 
-### Frontend Setup
+### Frontend Setup (Next.js with TypeScript)
 1. Clone the frontend repository.
 2. Install dependencies:
    ```
    npm install
    ```
    
-3. Set up API endpoints to communicate with the backend.
+3. Configure the API endpoints to communicate with the backend.
 4. Start the frontend application:
    ```
-   npm start
+   npm run dev
    ```
 
 ## Usage
